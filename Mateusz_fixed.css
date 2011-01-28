@@ -1,0 +1,327 @@
+﻿body
+{
+    margin: auto;
+    padding-top: 35px;
+    min-width: 800px;
+    min-height: 600px;
+    background-image: url(  'Obrazki/Tlo/lgrey141[Mateusz].jpg' );
+}
+#Kontener_gorny
+{
+    margin: auto;
+    width: 800px;
+    clear: both;
+    position: relative;
+    z-index: 0;
+    height: 156px;
+}
+#Logo
+{
+    float: right;
+    width: 192px;
+    height: 156px;
+    clear: right;
+    position: relative;
+    z-index: 1;
+}
+.image_logo
+{
+    top: 0px;
+    right: 0px;
+    float: right;
+}
+#Kontener_naglowka
+{
+    position: absolute;
+    z-index: -1;
+    float: left;
+    width: 78%;
+    height: 156px;
+}
+#Naglowek
+{
+    position: relative;
+    z-index: -1;
+    float: left;
+    width: 608px;
+    height: 100px;
+    clear: both;
+    font-size: 86px;
+    text-align: center;
+    font-style: italic;
+}
+#Naglowek h1
+{
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+    clear: both;
+}
+#Menu_gorne
+{
+    position: relative;
+    z-index: 0;
+    float: left;
+    width: 608px;
+    height: 50px;
+    clear: both;
+}
+.na_skroty
+{
+    float: right;
+    right: 22px;
+    position: absolute;
+    bottom: 7px;
+    display: inline;
+    height: 30px;
+    width: 344px;
+}
+#p_na_skroty
+{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+#Select1
+{
+    border-style: solid;
+    border-color: inherit;
+    border-width: 1px;
+    height: 25px;
+    width: 190px;
+    top: 0px;
+    position: absolute;
+    left: 102px;
+    right: 52px;
+}
+#Button2
+{
+    height: 25px;
+    background-color: #C0C0C0;
+    position: absolute;
+    top: 0px;
+    left: 308px;
+}
+#Kontener_srodkowy
+{
+    margin: auto;
+    position: relative;
+    width: 800px; /*height: 60%;*/
+    clear: both;
+    border-bottom-style: groove;
+    border-bottom-width: 3px;
+    border-top-style: groove;
+    border-top-width: 3px;
+    height: 600px;
+    top: 0px;
+    left: 0px;
+}
+
+#Kontener_lewy
+{
+    width: 10%; /* background-color: #008000;*/ /*min-width: 138px;*/
+    position: relative;
+    z-index: 2;
+    float: left; /* padding-top: 3px;     padding-left: 3px;     */
+    top: 0px;
+    left: 0px;
+    height: 600px;
+}
+#style
+{
+    font: small serif;
+    position: absolute;
+    width: 80px;
+    bottom: 8px;
+    left: 10px;
+    height: 55px;
+    z-index: 500;
+}
+#Menu_glowne
+{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    float: left;
+    top: 0px;
+    left: 0px;
+    height: 600px;
+}
+#Menu_glowne p
+{
+    font-size: small;
+}
+/*#Menu_glowne a:link
+{
+}
+*/
+#Menu_glowne a:hover
+{
+    /*padding: 3px;*/
+    font-style: italic;
+    font-weight: bold;
+    background-color: #B1B1B1;
+}
+#Menu_glowne a:active
+{
+}
+/*
+#Menu_glowne a:visited
+{
+    color: #FF0000;
+}
+*/
+#Kontener_prawy
+{
+    width: 88%;
+    position: relative;
+    z-index: 0;
+    float: right;
+    border-left-style: groove;
+    border-left-width: 3px;
+    height: 600px;
+}
+#Tresc b
+{
+    font-size: large;
+    text-transform: uppercase;
+    color: #0000FF;
+}
+#Tresc
+{
+    padding: 0 0 0 5px;
+    position: relative;
+    float: left; /*background-color: #008080;*/
+    width: 67%;
+    height: 600px;
+    overflow: auto;
+}
+#Tresc p
+{
+    font-size: small;
+}
+#Tresc_boczna
+{
+    float: right;
+    width: 31%;
+    z-index: 0;
+    height: 600px;
+    overflow: auto;
+}
+#Tresc_boczna p
+{
+    font-size: small;
+}
+#Kontener_dolny
+{
+    /* padding: 5px 20% 5px 20%;*/
+    margin: auto;
+    position: relative;
+    width: 800px;
+    height: 4.5em;
+    font-size: xx-small;
+    clear: both;
+    text-align: center;
+}
+
+#Menu_dolne
+{
+    /* padding: 5px 0% 0% 0%;*/
+    margin: auto;
+    position: relative;
+    width: 50%;
+    height: 2em;
+}
+#Menu_dolne ul
+{
+    position: relative;
+    width: auto;
+    display: inline;
+}
+.link_dolny
+{
+    border: 1px solid #C0C0C0;
+    position: relative;
+    display: inline;
+    width: auto;
+}
+.link_dolny a:hover
+{
+    border-style: none;
+    position: relative;
+    top: 0em;
+    display: inline;
+    width: auto;
+    background-color: #B1B1B1;
+    vertical-align: inherit;
+    text-align: inherit;
+    font-style: italic;
+}
+#Stopka
+{
+    /*padding: 3px 0% 0% 2%;*/
+    margin: auto;
+    position: relative;
+    width: 50%;
+    height: 2em;
+}
+#okno_z_wyskokiem
+{
+    position: absolute;
+    width: 220px;
+    height: 110px;
+    top: -157px;
+    left: 96px;
+    border-style: groove;
+    background-color: #ddddff;
+    background-image: url( 'Obrazki/Tlo/okno_z_wyskokiem.png' );
+    background-repeat: repeat;
+    z-index: 500;
+    font-size: small;
+    text-align: left;
+    list-style-type: square;
+    display: none;
+}
+#okno_z_wyskokiem li
+{
+    list-style-type: decimal;
+}
+
+.photo
+{
+    border-style: none;
+    width: 132px;
+    height: 100px;
+}
+.photo_in_line
+{
+    top: 0;
+    margin: 5px;
+    padding: 5px;
+    float: right;
+    width: 132px;
+    height: 115px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: x-small;
+    text-decoration: underline;
+}
+.photo_banner
+{
+    border-style: none;
+    width: 376px;
+    height: 341px;
+}
+.photo_in_banner
+{
+    top: 0;
+    margin: 5px;
+    padding: 5px;
+    float: right;
+    width: 376px;
+    height: 355px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: x-small;
+    text-decoration: underline;
+}

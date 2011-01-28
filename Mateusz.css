@@ -1,0 +1,295 @@
+﻿body
+{
+    margin: auto;
+    position: absolute;
+    padding-top: 1px;
+    padding-right: 3%;
+    padding-left: 3%;
+    min-width: 800px;
+    min-height: 600px;
+    background-image: url(   'Obrazki/Tlo/grey048(Mateusz).jpg' );
+}
+#Kontener_gorny
+{
+    width: 100%;
+    clear: both;
+    float: left;
+    position: relative;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+    height: 156px;
+}
+#Logo
+{
+    float: right;
+    width: 21%;
+    height: 156px;
+    clear: right;
+    position: relative;
+    z-index: 1;
+    top: 0px;
+}
+.image_logo
+{
+    top: 0px;
+    right: 0px;
+    float: right;
+}
+#Kontener_naglowka
+{
+    position: absolute;
+    z-index: -1;
+    float: left;
+    width: 78%;
+    height: 156px;
+}
+#Naglowek
+{
+    position: relative;
+    z-index: -1;
+    float: left;
+    width: 100%;
+    height: 100px;
+    clear: both;
+    font-size: 86px;
+    text-align: center;
+    left: 0px;
+    top: 0px;
+}
+#Naglowek h1
+{
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+    clear: both;
+}
+#Menu_gorne
+{
+    position: relative;
+    z-index: 0;
+    float: left;
+    width: 100%;
+    height: 50px;
+    clear: both;
+    top: 6px;
+}
+.na_skroty
+{
+    float: right;
+    right: 22px;
+    position: absolute;
+    bottom: 7px;
+    display: inline;
+    height: 30px;
+    width: 344px;
+}
+#p_na_skroty
+{
+    position: absolute;
+    top: 0px;
+}
+#Select1
+{
+    border-style: solid;
+    border-color: inherit;
+    border-width: 1px;
+    height: 25px;
+    width: 190px;
+    top: 0px;
+    position: absolute;
+    left: 102px;
+    right: 52px;
+}
+
+#Button2
+{
+    height: 25px;
+    background-color: #C0C0C0;
+    position: absolute;
+    top: 0px;
+    left: 308px;
+}
+#Kontener_srodkowy
+{
+    position: relative;
+    width: 100%; /*height: 60%;*/ ;
+clear:both;
+float:left;
+border-bottom-style:groove;
+border-bottom-width:3px;
+border-top-style:groove;
+border-top-width:3px;
+}
+
+#Kontener_lewy
+{
+    width: 10%; /* background-color: #008000;*/ /*min-width: 138px;*/
+    position: relative;
+    z-index: 2;
+    float: left; /* padding-top: 3px;     padding-left: 3px;     */
+    top: 0px;
+    left: 0px;
+}
+
+#Menu_glowne
+{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    float: left;
+    top: 0px;
+    left: 0px;
+}
+#Menu_glowne p
+{
+    font-size: medium;
+}
+#Kontener_prawy
+{
+    width: 88%;
+    position: relative;
+    z-index: 0;
+    float: right;
+    border-left-style: groove;
+    border-left-width: 3px; /*     padding-top: 3px;     padding-left: 3px;     */
+}
+#Tresc b
+{
+    font-size: large;
+    text-transform: uppercase;
+    color: #0000FF;
+}
+#Tresc
+{
+    padding: 0 0 0 5px;
+    position: relative;
+    float: left; /*background-color: #008080;*/ ;
+width:67%;
+}
+#Tresc p
+{
+    font-size: medium;
+}
+#Tresc_boczna
+{
+    float: right;
+    width: 31%;
+    z-index: 0;
+}
+#Kontener_dolny
+{
+    /* padding: 5px 20% 5px 20%;*/
+    position: relative;
+    width: 100%;
+    height: 4.5em;
+    float: left;
+    font-size: xx-small;
+    clear: both;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+#Menu_dolne
+{
+    /* padding: 5px 0% 0% 0%;*/
+    margin: auto;
+    position: relative;
+    width: 50%;
+    height: 2em;
+    top: 0em;
+    left: 0em;
+}
+#Menu_dolne ul
+{
+    position: relative;
+    width: auto;
+    display: inline;
+}
+.link_dolny
+{
+    border: 1px solid #C0C0C0;
+    position: relative;
+    display: inline;
+    width: auto;
+}
+.link_dolny a:hover
+{
+    border-style: none;
+    position: relative;
+    top: 0em;
+    display: inline;
+    width: auto;
+    background-color: #CCCCCC;
+    vertical-align: inherit;
+    text-align: inherit;
+    font-style: italic;
+}
+
+#Stopka
+{
+    /*padding: 3px 0% 0% 2%;*/
+    margin: auto;
+    position: relative;
+    width: 50%;
+    height: 2em;
+    left: 0em;
+    top: 0em;
+}
+/*#Menu_glowne a:link
+{
+}
+*/
+#Menu_glowne a:hover
+{
+    padding: 3px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #F3F1F1;
+}
+#Menu_glowne a:active
+{
+}
+#Menu_glowne a:visited
+{
+    color: #FF0000;
+}
+.photo
+{
+    border-style: none;
+    width: 132px;
+    height: 100px;
+}
+.photo_in_line
+{
+    top: 0;
+    margin: 5px;
+    padding: 5px;
+    float: right;
+    width: 132px;
+    height: 115px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: x-small;
+    text-decoration: underline;
+}
+.photo_banner
+{
+    border-style: none;
+    width: 376px;
+    height: 341px;
+}
+.photo_in_banner
+{
+    top: 0;
+    margin: 5px;
+    padding: 5px;
+    float: right;
+    width: 376px;
+    height: 355px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: x-small;
+    text-decoration: underline;
+}
